@@ -54,8 +54,11 @@ const Gallery = () => {
     setCards(data);
   }
   useEffect(() => {
+    // eslint-disable-next-line
     getProject("project");
-  }, []);
+  }, 
+  // eslint-disable-next-line
+  []);
 
   const FileViewer = (cardimgS) => {
     const fileExtension = cardimgS.split('.').pop().toLowerCase();

@@ -1,6 +1,6 @@
 import './App.css';
-import { AboutUs, OurReputation, Status, FindUs, Footer, Gallery, Header, Intro, Services } from './container';
-import { Navbar } from './components';
+import {Navbar , AboutUs, OurReputation, Status, FindUs, Footer, Gallery, Header, Intro, Services } from './container';
+
 
 function App() {
   return (

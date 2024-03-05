@@ -7,8 +7,10 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Services from './Services/Services';
+import Navbar from './NavBar/Navbar';
 
 export {
+  Navbar,
   AboutUs,
   OurReputation,
   Status,
