@@ -45,15 +45,15 @@
 }
 /*////////////// menu button ///////////*/
 .menu {
-  display: none;
   position: absolute;
+  display: none;
   z-index: -1;
   top: 0;
   right: 0;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 100vh;
+  height: 10vh;
   width: 100%;
   flex-direction: column;
   transition: all ease 0.5s;
@@ -107,6 +107,7 @@
   .menu {
     display: block;
     z-index: 5;
+    height: 100vh;
   }
   .app__nav-links {
     display: none;
