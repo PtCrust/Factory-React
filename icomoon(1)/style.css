@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wwbpro');
-  src:  url('fonts/icomoon.eot?wwbpro#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wwbpro') format('truetype'),
-    url('fonts/icomoon.woff?wwbpro') format('woff'),
-    url('fonts/icomoon.svg?wwbpro#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?btwn7m');
+  src:  url('fonts/icomoon.eot?btwn7m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?btwn7m') format('truetype'),
+    url('fonts/icomoon.woff?btwn7m') format('woff'),
+    url('fonts/icomoon.svg?btwn7m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-brush:before {
+  content: "\e901";
+}
+.icon-painting:before {
+  content: "\e901";
+}
+.icon-art:before {
+  content: "\e901";
+}
+.icon-drawing:before {
+  content: "\e901";
+}
+.icon-clock:before {
+  content: "\e902";
+}
 .icon-handshake-o:before {
   content: "\e900";
 }
@@ -34,8 +49,11 @@
 .icon-th-menu:before {
   content: "\e904";
 }
-.icon-electrical_services:before {
+.icon-shopping_bag:before {
   content: "\e905";
+}
+.icon-high_quality:before {
+  content: "\e90b";
 }
 .icon-design_services:before {
   content: "\e907";
@@ -43,24 +61,21 @@
 .icon-files:before {
   content: "\e908";
 }
-.icon-globe:before {
-  content: "\e909";
+.icon-package:before {
+  content: "\e90c";
+}
+.icon-currency-dollar:before {
+  content: "\e90d";
+}
+.icon-mood-happy-outline:before {
+  content: "\e90e";
 }
 .icon-office:before {
   content: "\e90a";
 }
-.icon-trophy:before {
-  content: "\e99e";
+.icon-leaf:before {
+  content: "\e9a4";
 }
-.icon-facebook2:before {
-  content: "\ea91";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
-.icon-whatsapp:before {
-  content: "\ea93";
-}
-.icon-linkedin:before {
-  content: "\eac9";
+.icon-truck:before {
+  content: "\e9b0";
 }
