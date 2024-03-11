@@ -95,6 +95,7 @@ main.app__main .right-section {
 }
 .card .box .title {
   font-size: 1.2rem;
+  text-align: center;
 }
 .card .box .sub-title {
   font-size: 0.8rem;

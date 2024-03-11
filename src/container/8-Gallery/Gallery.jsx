@@ -76,7 +76,6 @@ const Gallery = () => {
 
               <div className='box'>
                 <h1 className='title'>{card.title}</h1>
-                <p className='sub-title'>{card.desc}</p>
               </div>
             </article>
 
