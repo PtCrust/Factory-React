@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9271ee53.css",
-    "main.js": "/static/js/main.dbf03564.js",
+    "main.css": "/static/css/main.742cdf90.css",
+    "main.js": "/static/js/main.7611db23.js",
     "static/js/453.e20395e6.chunk.js": "/static/js/453.e20395e6.chunk.js",
-    "static/media/industrial.jpg": "/static/media/industrial.325c669b0eddb504eb55.jpg",
-    "static/media/aboutUs.jpg": "/static/media/aboutUs.7913b62e3b4591da91a5.jpg",
+    "static/media/bg3.jpg": "/static/media/bg3.64be714a812045a94de2.jpg",
+    "static/media/aboutUsImg.jpg": "/static/media/aboutUsImg.fdd1e2eadc205944d8c0.jpg",
+    "static/media/logo.png": "/static/media/logo.cbff484ce2da6386922b.png",
     "static/media/industry-construction-industrial-civil-works.jpg": "/static/media/industry-construction-industrial-civil-works.b51f632ab86d10bf8577.jpg",
-    "static/media/logo-high-resolution-logo.png": "/static/media/logo-high-resolution-logo.a040412a6a8faf1d2246.png",
+    "static/media/garbageBageString2.jpeg": "/static/media/garbageBageString2.9ac2d4c7a9100763514a.jpeg",
+    "static/media/grocaryBags1.jpeg": "/static/media/grocaryBags1.ea2bf32d75dfa1f0028b.jpeg",
+    "static/media/rollBagTash.jpeg": "/static/media/rollBagTash.9bc15cef968951cc2d08.jpeg",
+    "static/media/trash1.jpeg": "/static/media/trash1.e353f8243d61d9e1e704.jpeg",
+    "static/media/garbageBagString.jpeg": "/static/media/garbageBagString.084e4d7d391296f7cca1.jpeg",
+    "static/media/grocaryBags2.jpeg": "/static/media/grocaryBags2.18df659d42f9e094349f.jpeg",
+    "static/media/sandwitchBagRoll.jpeg": "/static/media/sandwitchBagRoll.f95b297ca051338e416f.jpeg",
+    "static/media/customBag.jpeg": "/static/media/customBag.4ede7bf6690acd4a83b0.jpeg",
     "index.html": "/index.html",
-    "main.9271ee53.css.map": "/static/css/main.9271ee53.css.map",
-    "main.dbf03564.js.map": "/static/js/main.dbf03564.js.map",
+    "main.742cdf90.css.map": "/static/css/main.742cdf90.css.map",
+    "main.7611db23.js.map": "/static/js/main.7611db23.js.map",
     "453.e20395e6.chunk.js.map": "/static/js/453.e20395e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9271ee53.css",
-    "static/js/main.dbf03564.js"
+    "static/css/main.742cdf90.css",
+    "static/js/main.7611db23.js"
   ]
 }
