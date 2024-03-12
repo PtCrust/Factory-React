@@ -62,7 +62,6 @@ main.app__main .right-section {
   transition: all ease 1s;
 }
 .card {
-  transition: 0.3s;
   border-radius: 3px;
   overflow: hidden;
   height: max-content;

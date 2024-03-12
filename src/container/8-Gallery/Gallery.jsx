@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Gallery.css';
 import projectCard from '../db';
-import logoImg from "../../assets/logo.png"
+import logoImg from "../../assets/logo.png";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Gallery = () => {
 
@@ -33,7 +34,7 @@ const Gallery = () => {
     const fileExtension = cardimgS.split('.').pop().toLowerCase();
 
     if (fileExtension === 'pdf') {
-      return <iframe src={cardimgS} title='pdf' style={{ width: "70%", margin:"auto" }} allowFullScreen frameBorder={0} />;
+      return <iframe src={cardimgS} title='pdf' style={{ width: "70%", margin: "auto" }} allowFullScreen frameBorder={0} />;
     } else if (['jpg', 'jpeg', 'png', 'gif', "tiff", "raw", "psd", "eps", "ai", "indd"].includes(fileExtension)) {
       return <img src={cardimgS} alt="Preview" />;
     } else {
@@ -48,7 +49,7 @@ const Gallery = () => {
         <button className={active === "all" ? "active" : null} onClick={() => {
           setActive("all");
           getProject("project");
-        }}><span style={{color:"#F9995D" ,fontSize:"1.4rem"}}>ALL </span>- Biodegradable</button>
+        }}><span style={{ color: "#F9995D", fontSize: "1.4rem" }}>ALL </span>- Biodegradable</button>
 
         <button className={active === "GroceryBags" ? "active" : null} onClick={() => {
           setActive("GroceryBags");
@@ -67,21 +68,28 @@ const Gallery = () => {
 
       </div>
       <div className='right-section'>
+        <AnimatePresence>
+          {
+            cards.map((card, i) => (
 
-        {
-          cards.map((card) => (
+              <motion.article
 
-            <article className='card' key={card.id}>
-              {FileViewer(card.imgS)}
+                initial={{ opacity: 0 ,transform:"scale(0.5)"}}
+                animate={{ opacity:1 ,transform:"scale(1)"}}
+                transition={{ duration: 0.5 , delay: i * 0.2 }}
 
-              <div className='box'>
-                <h1 className='title'>{card.title}</h1>
-              </div>
-            </article>
+                className='card' key={card.id}>
+                {FileViewer(card.imgS)}
 
-          )
-          )
-        }
+                <div className='box'>
+                  <h1 className='title'>{card.title}</h1>
+                </div>
+              </motion.article>
+
+            )
+            )
+          }
+        </AnimatePresence>
       </div>
     </main>
   )
