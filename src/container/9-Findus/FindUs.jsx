@@ -10,8 +10,7 @@ const FindUs = () => {
   return (
     <section className='findUs' id='contactus'>
       <div className='findUs__title'>
-        <h1>What can us do for you?</h1>
-        <p>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+        <h1>What can we do for you?</h1>
       </div>
 
       <form action="https://formspree.io/f/xzbnvdlr" method='post' className='findUs__form' onSubmit={handleSubmit} >
