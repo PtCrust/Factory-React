@@ -78,7 +78,7 @@ main.app__main .right-section {
   height: 14rem;
 }
 .card:hover {
-  transition: all ease 1s;
+  transition: all ease 0.5s;
   scale: 1.05;
 }
 .card .box {
